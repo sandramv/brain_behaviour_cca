@@ -8,13 +8,10 @@ from numpy import random
 from sklearn.cross_decomposition import CCA
 from sklearn.decomposition import PCA
 from scipy import stats
-from sklearn.preprocessing import StandardScaler, RobustScaler
+from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import KFold, train_test_split
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.utils import resample
-import seaborn as sns
-import matplotlib.pyplot as plt
-from scipy import stats
 from utils import ID_COV, FS, COG, VOLS
 
 # Load data
